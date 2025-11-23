@@ -45,8 +45,8 @@ function handleServerMessage(data) {
             currentUsername = data.username;
             document.getElementById(
                 "current-username"
-            ).textContent = `Conectado como: ${currentUsername}`;
-            addSystemMessage(`Te has unido como ${currentUsername}`);
+            ).textContent = `${currentUsername}`;
+            addSystemMessage(`Te has unido como! ${currentUsername}`);
             break;
 
         case "system":

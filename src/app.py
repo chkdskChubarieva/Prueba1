@@ -6,7 +6,7 @@ from services.auth_service import init_oauth
 
 sock = Sock()
 
-
+# ESTA ES MI RAMAAA
 def create_app():
     app = Flask(__name__)
     app.config["SECRET_KEY"] = "dev-secret-key"
